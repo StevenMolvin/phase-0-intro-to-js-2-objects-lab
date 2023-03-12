@@ -4,8 +4,8 @@ const employee = {
   name: "",
   streetAddress: "",
 };
-employee.name = "Dan";
-employee.streetAddress = "Chuka";
+employee.name = "Wendy";
+employee.streetAddress = "Matasia";
 employee;
 function updateEmployeeWithKeyAndValue(employee, key, value) {
   const newEmployee = { ...employee };
